@@ -1,0 +1,21 @@
+===== MODEL EVALUATION SUMMARY =====
+RMSE: 9.9954
+MAE:  5.9326
+R2:   0.9880
+
+===== TOP FEATURES =====
+pm2.5_roll_mean_3: 0.705958
+pm2.5_lag_1: 0.211572
+pm2.5_lag_3: 0.011682
+pm2.5_roll_std_3: 0.009452
+pm2.5_roll_mean_6: 0.007713
+cbwd_NW: 0.005704
+pm2.5_roll_std_6: 0.004671
+pm2.5_lag_6: 0.003710
+cbwd_SE: 0.003465
+wind_strength: 0.003138
+temp_dewp_diff: 0.002750
+iws: 0.002660
+ir: 0.002630
+pm2.5_roll_mean_12: 0.002376
+hour: 0.002180

@@ -1,0 +1,31 @@
+===== DATA DRIFT REPORT =====
+
+Total features checked: 29
+Features with drift: 25
+
+=== DRIFTED FEATURES ===
+no | mean_shift=21620.2252 | std_shift=7816.4759
+year | mean_shift=2.4451 | std_shift=1.1431
+month | mean_shift=0.2449 | std_shift=0.1464
+day | mean_shift=0.4523 | std_shift=0.0183
+dewp | mean_shift=1.2587 | std_shift=0.6669
+temp | mean_shift=2.3371 | std_shift=0.9135
+pres | mean_shift=0.2627 | std_shift=0.8048
+iws | mean_shift=5.1775 | std_shift=6.3652
+ir | mean_shift=0.0718 | std_shift=0.4419
+pm2.5_lag_1 | mean_shift=1.0591 | std_shift=2.9932
+pm2.5_lag_3 | mean_shift=1.0581 | std_shift=2.9868
+pm2.5_lag_6 | mean_shift=1.0149 | std_shift=2.974
+pm2.5_lag_12 | mean_shift=0.8625 | std_shift=3.0301
+pm2.5_lag_24 | mean_shift=0.7395 | std_shift=2.9697
+pm2.5_roll_mean_3 | mean_shift=1.0604 | std_shift=3.313
+pm2.5_roll_std_3 | mean_shift=1.1855 | std_shift=1.5467
+pm2.5_roll_mean_6 | mean_shift=1.0529 | std_shift=3.7221
+pm2.5_roll_std_6 | mean_shift=1.5787 | std_shift=1.8951
+pm2.5_roll_mean_12 | mean_shift=0.9939 | std_shift=4.3734
+pm2.5_roll_std_12 | mean_shift=1.9549 | std_shift=1.9876
+pm2.5_roll_mean_24 | mean_shift=0.9008 | std_shift=5.1414
+pm2.5_roll_std_24 | mean_shift=2.3629 | std_shift=1.4397
+temp_dewp_diff | mean_shift=1.0784 | std_shift=0.4711
+wind_strength | mean_shift=5.1775 | std_shift=6.3652
+pressure_temp | mean_shift=2385.9982 | std_shift=942.5711

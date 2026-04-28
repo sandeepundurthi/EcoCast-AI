@@ -1,0 +1,28 @@
+===== DATASET_SUMMARY =====
+num_rows: 41757
+num_columns: 14
+columns: ['no', 'year', 'month', 'day', 'hour', 'pm2.5', 'dewp', 'temp', 'pres', 'cbwd', 'iws', 'is', 'ir', 'datetime']
+missing_values: {'no': 0, 'year': 0, 'month': 0, 'day': 0, 'hour': 0, 'pm2.5': 0, 'dewp': 0, 'temp': 0, 'pres': 0, 'cbwd': 0, 'iws': 0, 'is': 0, 'ir': 0, 'datetime': 0}
+duplicate_rows: 0
+
+===== TARGET_SUMMARY =====
+count: 41757
+mean: 98.61321455085375
+median: 72.0
+std: 92.05038718924065
+min: 0.0
+max: 994.0
+q1: 29.0
+q3: 137.0
+
+===== DATETIME_CONTINUITY =====
+start: 2010-01-02 00:00:00
+end: 2014-12-31 23:00:00
+non_hourly_gaps: 213
+
+===== PM25_OUTLIER_CHECK =====
+column: pm2.5
+lower_bound: -133.0
+upper_bound: 299.0
+num_outliers: 1773
+
